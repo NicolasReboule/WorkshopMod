@@ -1,0 +1,16 @@
+[
+{
+  "modid": "supermod",
+  "name": "Example Mod",
+  "description": "Un super mod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["LeGrandNicolas", "ChienDO"],
+  "credits": "Monsieur Mattapullut pour les connaissances",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
