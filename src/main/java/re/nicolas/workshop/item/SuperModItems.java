@@ -16,7 +16,7 @@ import net.minecraft.item.Item;
 @Mod.EventBusSubscriber(modid = SuperMod.MODID, value = Side.CLIENT)
 public class SuperModItems {
     public static final ArrayList<Item> ITEMS = new ArrayList<Item>();
-    public static final Item BASICITEM = new BasicItem("Basic Item");
+    public static final Item BASICITEM = new BasicItem("basic_item");
     public static void setItemName (Item item, String name) {
         item.setRegistryName(SuperMod.MODID ,name).setUnlocalizedName(SuperMod.MODID + "." + name);
         ITEMS.add(item);

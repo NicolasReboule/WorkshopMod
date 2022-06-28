@@ -10,7 +10,7 @@ import re.nicolas.workshop.item.SuperModItems;
 @Mod.EventBusSubscriber(modid = SuperMod.MODID)
 public class RegistryHandler {
     @SubscribeEvent
-    public void registerItems(RegistryEvent.Register<Item> event) {
+    public static void registerItems(RegistryEvent.Register<Item> event) {
         for (Item item: SuperModItems.ITEMS) {
             event.getRegistry().register(item);
         }
